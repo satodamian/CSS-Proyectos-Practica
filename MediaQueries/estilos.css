@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.img{
+    display: block;
+    border: 5px solid orange;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+@media (max-width:600px){
+    body{
+        background-color: red;
+    }
+}
+
+@media (min-width:600px){
+    body{
+        background-color: yellow;
+    }
+}

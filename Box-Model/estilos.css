@@ -1,0 +1,38 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: red; */
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: royalblue;
+    color: white;
+    display: inline-block;
+    height: auto;
+    padding: 20px 30px;
+    border: yellow solid 3px;
+}
+
+.card--one{
+   width: 400px;
+   height: 400px;
+   padding: 45px;
+   box-sizing: content-box;
+} 
+ 
+.card__title{
+   margin-top: 15px;
+}
+
+.main{
+    background-color: steelblue;
+    color: white;
+    margin-bottom: 100px;
+}
+.main__title{
+    margin-top: 50px;
+}
+.footer{
+    background-color: slateblue;
+    color: white;
+}

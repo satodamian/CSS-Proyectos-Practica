@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    /* width: 90%; */
+    /* max-width: 800px; */
+    width: 90%;
+    min-height: 800px;
+    margin: 80px auto;
+    border: 3px solid #000;
+    /* ! Para declarar flexbox es importante poner: */
+    display: flex;
+    /* ! Permite cambiar el eje principal de flexbox: (por defecto es row) */
+    /* flex-direction: row-reverse; */
+    /* !Define el comportamiento de los hijos cuando su tamaño sumado rebasa el tamaño del main access*/
+    /* flex-wrap: wrap-reverse; */
+   /* justify-content: center; */
+   /* justify-content: space-between; */
+   /* justify-content: space-evenly; */
+
+   /* *CROSS ACCESS* */
+   /* align-items: content;
+   align-content: space-evenly; */
+    align-items: center;
+}
+
+.element{
+   color: #fff;
+   font-size: 2rem;
+   text-align: center;
+   line-height: 100px;
+   /* background-color: salmon; */
+   width: 300px;
+   height: 100px; 
+   /* flex-grow: 1; */
+   /* flex-shrink: 1; */
+   flex-basis: 150px;
+}
+
+.element1{
+    background-color: crimson;
+    
+}
+
+.element2{
+    background-color: purple;
+    /* order: 1; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 3; */
+}
+
+.element3{
+    background-color: steelblue;
+}
